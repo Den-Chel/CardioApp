@@ -27,19 +27,23 @@
         <form class="form hidden">
           <div class="form__row">
             <label class="form__label">Type</label>
-            <select class="form__input form__input--type">
+            <select class="form__input form__input--type" >
               <option value="running">Jogging</option>
-              <option value="cycling">Bike</option>
+              <option value="cycling">Cycling</option>
             </select>
           </div>
           <div class="form__row">
             <label class="form__label">Distance</label>
-            <input class="form__input form__input--distance" placeholder="km" />
+            <input 
+            class="form__input form__input--distance" 
+            id="input-field" 
+            placeholder="km" />
           </div>
           <div class="form__row">
             <label class="form__label">Duration</label>
             <input
               class="form__input form__input--duration"
+              id="input-field" 
               placeholder="min"
             />
           </div>
@@ -47,6 +51,7 @@
             <label class="form__label">Pace</label>
             <input
               class="form__input form__input--temp"
+              id="input-field" 
               placeholder="step/min"
             />
           </div>
@@ -54,6 +59,7 @@
             <label class="form__label">Climb</label>
             <input
               class="form__input form__input--climb"
+              id="input-field" 
               placeholder="metres"
             />
           </div>
